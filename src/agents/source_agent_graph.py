@@ -16,8 +16,8 @@ from src.agents.prompts import (simillar_prompt, relevance_input_prompt,post_cre
 from src.agents.agent_schemas import SourceAgentGraph
 from src.tools.ddgs_web_search import retriever
 from src.tgbot.cache import cache_db
-from src.agents.utils import measure_time, redis_img_find, links_filter, redis_update_links
-from src.tools.google_web_search import search_img, get_google_image_links
+from src.agents.utils import measure_time, redis_update_links
+from src.tools.google_web_search import get_google_image_links
 from src.llms.open_router import OpenRouterChat
 
 
@@ -222,10 +222,3 @@ workflow.add_edge("👀🕸️🌏MakeSearchQuery", "👀🖼️SelectImage4Post
 workflow.add_edge("👀🖼️SelectImage4Post", END)
 
 graph = workflow.compile(debug=False, checkpointer=ckpt)
-
-
-'''if __name__ == '__main__':
-    result = graph.invoke({'user_message':'Последние новости в экономике РФ',
-                          'add_web_parsing_as_ctx': True})
-
-    logger.info(result['generation'])'''

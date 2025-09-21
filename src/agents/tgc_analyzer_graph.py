@@ -23,3 +23,17 @@
 4. Ассистент/agent (pandas agent) делает анализ на основе фичей, табл данных
 
 '''
+
+
+'''
+Согласно текущей аналитике:
+https://ppc.world/news/chem-chasche-postyat-telegram-kanaly-tem-rezhe-ih-chitayut-issledovanie/
+https://ppc.world/news/kakoe-idealnoe-vremya-dlya-publikacii-postov-v-socsetyah-dannye-po-4-ploschadkam/?from=chem-chasche-postyat-telegram-kanaly-tem-rezhe-ih-chitayut-issledovanie
+
+1. Лучшее время выкладывания постов: со вторника по пятницу: 10:00 до 12:00 и 17:00 до 21:00 
+2. Частота: по 4 поста в день
+3. Что тогда можно делать: можно бегать по тгк и коллекционировать новости: собираем айдишник новостей/ссылки
+на посты других тгк. Отбираем из них лучшие по просмотрам и реакциям
+4. Переписываем лучшие новости
+5. Формируем дайджест случайно по менее популярным
+'''
